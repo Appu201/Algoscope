@@ -1,0 +1,42 @@
+export const ALGO_INFO = {
+  bubble: {
+    name: 'Bubble Sort',
+    best: 'O(n)',
+    avg: 'O(n²)',
+    worst: 'O(n²)',
+    space: 'O(1)',
+    desc: 'Steps through the array, swapping adjacent elements that are out of order, until a full pass needs no swaps.',
+  },
+  selection: {
+    name: 'Selection Sort',
+    best: 'O(n²)',
+    avg: 'O(n²)',
+    worst: 'O(n²)',
+    space: 'O(1)',
+    desc: 'Finds the minimum value in the unsorted region each pass and swaps it into place at the front.',
+  },
+  insertion: {
+    name: 'Insertion Sort',
+    best: 'O(n)',
+    avg: 'O(n²)',
+    worst: 'O(n²)',
+    space: 'O(1)',
+    desc: 'Grows a sorted region from the left, inserting each new element into its correct position.',
+  },
+  merge: {
+    name: 'Merge Sort',
+    best: 'O(n log n)',
+    avg: 'O(n log n)',
+    worst: 'O(n log n)',
+    space: 'O(n)',
+    desc: 'Recursively splits the array in half, sorts each half, then merges the two sorted halves back together.',
+  },
+  quick: {
+    name: 'Quick Sort',
+    best: 'O(n log n)',
+    avg: 'O(n log n)',
+    worst: 'O(n²)',
+    space: 'O(log n)',
+    desc: 'Picks a pivot, partitions smaller elements to its left and larger to its right, then recurses on each side.',
+  },
+}
