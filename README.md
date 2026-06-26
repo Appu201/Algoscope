@@ -2,7 +2,7 @@
 
 An oscilloscope-styled visualizer for classic sorting algorithms, built with React. Comparisons, swaps, and writes trace across the display in real time, like a signal on a scope readout.
 
-> Live demo: _add your deployed link here (Vercel / Netlify / GitHub Pages)_
+> Live demo: [algoscope-ten.vercel.app](https://algoscope-ten.vercel.app/)__
 
 ## Why this exists
 
